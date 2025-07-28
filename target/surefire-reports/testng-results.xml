@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Expected Result = Email address or phone number]]>
+    </line>
+    <line>
+      <![CDATA[Actual Resutl = Email address or phone number]]>
+    </line>
+    <line>
+      <![CDATA[Expected Result = Password]]>
+    </line>
+    <line>
+      <![CDATA[Actual Resutl = Password]]>
+    </line>
+    <line>
+      <![CDATA[Expected Result = https://www.facebook.com/]]>
+    </line>
+    <line>
+      <![CDATA[Actual Resutl = https://www.facebook.com/]]>
+    </line>
+    <line>
+      <![CDATA[Expected Result = Facebook helps you connect and share with the people in your life.]]>
+    </line>
+    <line>
+      <![CDATA[Actual Resutl = Facebook helps you connect and share with the people in your life.]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-07-28T21:18:12 BST" name="Suite" finished-at="2025-07-28T21:18:16 BST" duration-ms="4319">
+    <groups>
+    </groups>
+    <test started-at="2025-07-28T21:18:12 BST" name="Test" finished-at="2025-07-28T21:18:16 BST" duration-ms="4319">
+      <class name="test.BasicValidation">
+        <test-method signature="emailPlaceholderValidation()[pri:0, instance:test.BasicValidation@28dcca0c]" started-at="2025-07-28T21:18:16 BST" name="emailPlaceholderValidation" finished-at="2025-07-28T21:18:16 BST" duration-ms="152" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Expected Result = Email address or phone number]]>
+            </line>
+            <line>
+              <![CDATA[Actual Resutl = Email address or phone number]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- emailPlaceholderValidation -->
+        <test-method signature="passwordPlaceholderValidation()[pri:0, instance:test.BasicValidation@28dcca0c]" started-at="2025-07-28T21:18:16 BST" name="passwordPlaceholderValidation" finished-at="2025-07-28T21:18:16 BST" duration-ms="31" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Expected Result = Password]]>
+            </line>
+            <line>
+              <![CDATA[Actual Resutl = Password]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- passwordPlaceholderValidation -->
+        <test-method signature="urlValidation()[pri:0, instance:test.BasicValidation@28dcca0c]" started-at="2025-07-28T21:18:16 BST" name="urlValidation" finished-at="2025-07-28T21:18:16 BST" duration-ms="12" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Expected Result = https://www.facebook.com/]]>
+            </line>
+            <line>
+              <![CDATA[Actual Resutl = https://www.facebook.com/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- urlValidation -->
+        <test-method signature="welcomeMessageValidation()[pri:0, instance:test.BasicValidation@28dcca0c]" started-at="2025-07-28T21:18:16 BST" name="welcomeMessageValidation" finished-at="2025-07-28T21:18:16 BST" duration-ms="42" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Expected Result = Facebook helps you connect and share with the people in your life.]]>
+            </line>
+            <line>
+              <![CDATA[Actual Resutl = Facebook helps you connect and share with the people in your life.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- welcomeMessageValidation -->
+      </class> <!-- test.BasicValidation -->
+      <class name="test.BaseTest">
+        <test-method is-config="true" signature="beforetest(java.lang.String,java.lang.String)[pri:0, instance:test.BaseTest@609e8838]" started-at="2025-07-28T21:18:12 BST" name="beforetest" finished-at="2025-07-28T21:18:16 BST" duration-ms="3671" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:test.BaseTest@609e8838]" started-at="2025-07-28T21:18:16 BST" name="aftertest" finished-at="2025-07-28T21:18:16 BST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- test.BaseTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
