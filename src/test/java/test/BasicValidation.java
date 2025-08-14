@@ -6,8 +6,6 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import pom.Login;
-import pom.Login4;
-import pom.Login;
 
 public class BasicValidation extends BaseTest{
 
