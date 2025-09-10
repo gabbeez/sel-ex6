@@ -1,0 +1,26 @@
+pipeline{
+    agent any
+    
+    tools{
+        maven "maven-3.9.9"
+    }
+    
+    stages{
+        stage('git pull'){
+            steps{
+                git branch: 'main', changelog: false, poll: false, url: 'https://github.com/gabbeez/sel-ex6.git'
+            }
+        }
+        stage('functional test run'){
+            steps{
+                bat 'mvn clean install'
+            }
+            post{
+                success{
+                    testNG()
+                    allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
+                }
+            }
+        }
+    }
+}
